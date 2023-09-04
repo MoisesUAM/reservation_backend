@@ -1,0 +1,92 @@
+[
+    {
+        "routeId": 1,
+        "routeName": "San Jose-Alajuela",
+        "cityFrom": "San Jose",
+        "cityTo": "Alajuela",
+        "distanceInKm": 38.5
+    },
+    {
+        "routeId": 2,
+        "routeName": "San Jose-Heredia",
+        "cityFrom": "San Jose",
+        "cityTo": "Heredia",
+        "distanceInKm": 18.7
+    },
+    {
+        "routeId": 3,
+        "routeName": "San Jose-Limon",
+        "cityFrom": "San Jose",
+        "cityTo": "Limon",
+        "distanceInKm": 218.5
+    },
+    {
+        "routeId": 4,
+        "routeName": "San Jose-Puntarenas",
+        "cityFrom": "San Jose",
+        "cityTo": "Puntarenas",
+        "distanceInKm": 139.2
+    },
+    {
+        "routeId": 5,
+        "routeName": "San Jose-Liberia",
+        "cityFrom": "San Jose",
+        "cityTo": "Liberia",
+        "distanceInKm": 309.5
+    },
+    {
+        "routeId": 6,
+        "routeName": "San Jose-Cartago",
+        "cityFrom": "San Jose",
+        "cityTo": "Cartago",
+        "distanceInKm": 19.5
+    },
+    {
+        "routeId": 7,
+        "routeName": "Alajuela-San Jose",
+        "cityFrom": "Alajuela",
+        "cityTo": "San Jose",
+        "distanceInKm": 38.5
+    },
+    {
+        "routeId": 8,
+        "routeName": "Heredia-San Jose",
+        "cityFrom": "Heredia",
+        "cityTo": "San Jose",
+        "distanceInKm": 18.7
+    },
+    {
+        "routeId": 9,
+        "routeName": "Limon-San Jose",
+        "cityFrom": "Limon",
+        "cityTo": "San Jose",
+        "distanceInKm": 218.5
+    },
+    {
+        "routeId": 10,
+        "routeName": "Puntarenas-San Jose",
+        "cityFrom": "Puntarenas",
+        "cityTo": "San Jose",
+        "distanceInKm": 139.2
+    },
+    {
+        "routeId": 11,
+        "routeName": "Liberia-San Jose",
+        "cityFrom": "Liberia",
+        "cityTo": "San Jose",
+        "distanceInKm": 309.5
+    },
+    {
+        "routeId": 12,
+        "routeName": "Cartago-San Jose",
+        "cityFrom": "Cartago",
+        "cityTo": "San Jose",
+        "distanceInKm": 19.5
+    }
+]
+
+Asi se hace la consultao por nombre usando un PathVariable
+localhost:8080/api/bus_route/route_name/San Jose-Alajuela
+
+Asi se hace la consulta con un query y PathParam
+localhost:8080/api/bus_route/query?cityFrom=San Jose&cityTo=Limon
