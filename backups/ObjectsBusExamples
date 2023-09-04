@@ -1,0 +1,44 @@
+[
+    {
+        "busId": 1,
+        "busName": "BusTestOne",
+        "busType": "AC-ECONOMY",
+        "totalSeat": 32,
+        "busNumber": "BS-001"
+    },
+    {
+        "busId": 2,
+        "busName": "BusTestTwo",
+        "busType": "AC-STANDART",
+        "totalSeat": 42,
+        "busNumber": "BS-002"
+    },
+    {
+        "busId": 3,
+        "busName": "BusTestThree",
+        "busType": "AC-STANDART_C2",
+        "totalSeat": 42,
+        "busNumber": "BS-003"
+    },
+    {
+        "busId": 4,
+        "busName": "BusTestFour",
+        "busType": "AC-BUSINESS_C1",
+        "totalSeat": 12,
+        "busNumber": "BS-004"
+    },
+    {
+        "busId": 5,
+        "busName": "BusTestFive",
+        "busType": "AC-BUSINESS_C2",
+        "totalSeat": 24,
+        "busNumber": "BS-005"
+    },
+    {
+        "busId": 6,
+        "busName": "BusTestSix",
+        "busType": "ES-SPORT-SERVICE",
+        "totalSeat": 48,
+        "busNumber": "BS-006"
+    }
+]
