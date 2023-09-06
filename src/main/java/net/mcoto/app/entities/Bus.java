@@ -12,6 +12,7 @@ public class Bus {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "bus_id", nullable = false)
     private Long busId;
     @Column(name = "bus_name", nullable = false)
     private String busName;

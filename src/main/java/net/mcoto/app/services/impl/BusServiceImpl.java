@@ -3,6 +3,7 @@ package net.mcoto.app.services.impl;
 import net.mcoto.app.entities.Bus;
 import net.mcoto.app.repositories.BusRepository;
 import net.mcoto.app.services.BusService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -12,6 +13,7 @@ public class BusServiceImpl implements BusService {
 
     private final BusRepository repository;
 
+    @Autowired
     public BusServiceImpl(BusRepository repository) {
         this.repository = repository;
     }

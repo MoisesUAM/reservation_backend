@@ -1,0 +1,45 @@
+//Adding new elements
+
+    {
+
+        "bus": {
+            "busId": 1,
+            "busName": "BusTestOne",
+            "busType": "AC-ECONOMY",
+            "totalSeat": 32,
+            "busNumber": "BS-001"
+        },
+        "busRoute": {
+            "routeId": 1,
+            "routeName": "San Jose-Alajuela",
+            "cityFrom": "San Jose",
+            "cityTo": "Alajuela",
+            "distanceInKm": 38.5
+        },
+        "departureTime": "6:00AM",
+        "ticketPrice": 850,
+        "discount": 0,
+        "processingFee": 40
+    }
+
+
+        {
+            "bus": {
+                "busId": 2,
+                "busName": "BusTestTwo",
+                "busType": "AC-STANDART",
+                "totalSeat": 32,
+                "busNumber": "BS-001"
+            },
+            "busRoute": {
+                "routeId": 1,
+                "routeName": "San Jose-Alajuela",
+                "cityFrom": "San Jose",
+                "cityTo": "Alajuela",
+                "distanceInKm": 38.5
+            },
+            "departureTime": "6:00AM",
+            "ticketPrice": 850,
+            "discount": 0,
+            "processingFee": 40
+        }

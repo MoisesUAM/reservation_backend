@@ -4,6 +4,7 @@ import net.mcoto.app.entities.BusRoute;
 import net.mcoto.app.model_response.ReservationApiException;
 import net.mcoto.app.repositories.BusRouteRepository;
 import net.mcoto.app.services.BusRouteService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
@@ -14,6 +15,7 @@ public class BusRouteServiceImpl implements BusRouteService {
 
     final private BusRouteRepository busRouteRepository;
 
+    @Autowired
     public BusRouteServiceImpl(BusRouteRepository busRouteRepository) {
         this.busRouteRepository = busRouteRepository;
     }
